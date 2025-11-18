@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MDP — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Landing Page -->
+  <div id="landing" class="landing-page">
+    <div class="landing-content">
+      <h1 class="landing-greeting">Hello, Marvin Dela Peña</h1>
+      <button class="landing-btn" id="enterBtn">View Details</button>
+    </div>
+  </div>
+
+  <!-- Main Site (Hidden Initially) -->
+  <div id="mainSite" class="main-site hidden">
+    <header class="site-header">
+      <div class="logo">M<span>DP</span></div>
+      <nav class="site-nav" id="siteNav">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="theme-icon">🌙</span>
+        </button>
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#details" class="nav-link">Details</a>
+        <a href="#about" class="nav-link">About</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu" data-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <section id="home" class="section home-section page-section active">
+        <div class="section__header">
+          <p class="eyebrow">Home</p>
+          <h2>Personal Information</h2>
+          <p class="section-description">Welcome to my portfolio. Here you can find my basic personal information including my name, educational background, age, address, birthday, and other essential details about me.</p>
+        </div>
+
+        <div class="home-layout">
+          <div class="home-image-container">
+            <div class="card image-card-small">
+              <div class="image-container-small">
+                <img src="img/schtuvyn.jpg" alt="Marvin Dela Peña" class="profile-image-small">
+              </div>
+            </div>
+          </div>
+
+          <div class="home-grid">
+          <article class="info-box fade-in">
+            <div class="info-emoji">👤</div>
+            <div class="info-content">
+              <h3>Name</h3>
+              <p>Marvin Dela Peña</p>
+            </div>
+          </article>
+
+          <article class="info-box fade-in" style="animation-delay: 0.1s;">
+            <div class="info-emoji">🎓</div>
+            <div class="info-content">
+              <h3>School</h3>
+              <p>San Jacinto National High School – SHS</p>
+            </div>
+          </article>
+
+          <article class="info-box fade-in" style="animation-delay: 0.2s;">
+            <div class="info-emoji">📚</div>
+            <div class="info-content">
+              <h3>Current Strand</h3>
+              <p>STEM Strand</p>
+            </div>
+          </article>
+
+          <article class="info-box fade-in" style="animation-delay: 0.3s;">
+            <div class="info-emoji">🎂</div>
+            <div class="info-content">
+              <h3>Age</h3>
+              <p>17 years old</p>
+            </div>
+          </article>
+
+          <article class="info-box fade-in" style="animation-delay: 0.4s;">
+            <div class="info-emoji">📍</div>
+            <div class="info-content">
+              <h3>Address</h3>
+              <p>Brgy. San Jose, San Jacinto, Pangasinan</p>
+            </div>
+          </article>
+
+          <article class="info-box fade-in" style="animation-delay: 0.5s;">
+            <div class="info-emoji">📅</div>
+            <div class="info-content">
+              <h3>Birthday</h3>
+              <p>February 14, 2008</p>
+            </div>
+          </article>
+
+          <article class="info-box fade-in" style="animation-delay: 0.6s;">
+            <div class="info-emoji">⚧️</div>
+            <div class="info-content">
+              <h3>Sex</h3>
+              <p>Male</p>
+            </div>
+          </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Details Section -->
+      <section id="details" class="section details-section page-section">
+        <div class="section__header">
+          <p class="eyebrow">Details</p>
+          <h2>Hobbies & Dream Course</h2>
+          <p class="section-description">This section showcases my interests, hobbies, and my aspirations for higher education. Discover what activities I enjoy and my passion for civil engineering.</p>
+        </div>
+
+        <div class="details-content">
+          <article class="detail-box fade-in">
+            <div class="detail-emoji">🎨</div>
+            <div class="detail-info">
+              <h3>Hobbies</h3>
+              <div class="hobbies-list">
+                <div class="hobby-item">
+                  <h4>Drawing</h4>
+                  <p>I love drawing as it allows me to express my creativity and visualize my ideas on paper. It helps me develop my artistic skills and provides a relaxing way to unwind after a busy day.</p>
+                </div>
+                <div class="hobby-item">
+                  <h4>Dancing</h4>
+                  <p>Dancing is one of my favorite ways to stay active and express myself through movement. It helps me improve my coordination, rhythm, and confidence while having fun.</p>
+                </div>
+                <div class="hobby-item">
+                  <h4>Making Arts/Crafts</h4>
+                  <p>Creating arts and crafts gives me the opportunity to work with my hands and bring my creative ideas to life. This hobby enhances my problem-solving skills and attention to detail.</p>
+                </div>
+                <div class="hobby-item">
+                  <h4>Problem Solving</h4>
+                  <p>I enjoy tackling challenging problems and puzzles as they sharpen my analytical thinking and logical reasoning. This hobby prepares me well for the problem-solving aspects of engineering.</p>
+                </div>
+                <div class="hobby-item">
+                  <h4>Playing Games</h4>
+                  <p>Playing games, whether video games or board games, helps me develop strategic thinking and teamwork skills. It's also a great way to relax and have fun with friends.</p>
+                </div>
+                <div class="hobby-item">
+                  <h4>Playing Sports</h4>
+                  <p>Engaging in sports keeps me physically fit and teaches me the importance of teamwork, discipline, and perseverance. It's an excellent way to maintain a healthy lifestyle while building character.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="detail-box fade-in" style="animation-delay: 0.2s;">
+            <div class="detail-emoji">🏗️</div>
+            <div class="detail-info">
+              <h3>Dream Course</h3>
+              <p>My dream course in college is <strong>Bachelor of Science in Civil Engineering</strong>, because I want to design structures, create solutions for communities, and contribute to building a safer, stronger environment.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="details-explanation fade-in" style="animation-delay: 0.4s;">
+          <p>These hobbies and my passion for civil engineering reflect my interest in both creative expression and analytical problem-solving. Through drawing and arts, I develop my creative vision, while problem-solving and sports help me build the logical thinking and teamwork skills essential for engineering projects.</p>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section about-section page-section">
+        <div class="section__header">
+          <p class="eyebrow">About</p>
+          <h2>About Me</h2>
+          <p class="section-description">Get to know me better through detailed explanations of every aspect of my life, from my personal background to my educational journey, hobbies, and future aspirations. Each detail is explained in depth to give you a complete understanding of who I am.</p>
+        </div>
+
+        <div class="about-paragraphs">
+          <div class="about-paragraph fade-in">
+            <h3>Name</h3>
+            <p>My name is <strong>Marvin Dela Peña</strong>. This name represents my identity and the person I am growing to become as I pursue my dreams and aspirations in life.</p>
+          </div>
+
+          <div class="about-paragraph fade-in" style="animation-delay: 0.1s;">
+            <h3>Age & Birthday</h3>
+            <p>I am <strong>17 years old</strong>, born on <strong>February 14, 2008</strong>. Being a teenager, I am at a crucial stage of my life where I am discovering my passions, building my skills, and preparing for my future career in civil engineering.</p>
+          </div>
+
+          <div class="about-paragraph fade-in" style="animation-delay: 0.2s;">
+            <h3>Sex</h3>
+            <p>I am <strong>Male</strong>. This is part of my identity, and I believe that regardless of gender, everyone has the potential to contribute meaningfully to society through their chosen field.</p>
+          </div>
+
+          <div class="about-paragraph fade-in" style="animation-delay: 0.3s;">
+            <h3>Address</h3>
+            <p>I reside in <strong>Brgy. San Jose, San Jacinto, Pangasinan</strong>. This community has been my home and has shaped my values and perspective on life. Living in this area has given me a deep appreciation for community and the importance of building infrastructure that serves people's needs.</p>
+          </div>
+
+          <div class="about-paragraph fade-in" style="animation-delay: 0.4s;">
+            <h3>Education</h3>
+            <p>I am currently a student at <strong>San Jacinto National High School – SHS</strong>, pursuing the <strong>STEM (Science, Technology, Engineering, and Mathematics) strand</strong>. This educational path has been instrumental in developing my analytical thinking, problem-solving skills, and passion for engineering. The STEM curriculum has provided me with a solid foundation in mathematics and sciences, which are essential for my future studies in civil engineering.</p>
+          </div>
+
+          <div class="about-paragraph fade-in" style="animation-delay: 0.5s;">
+            <h3>Hobbies</h3>
+            <p>I have a diverse range of hobbies that keep me engaged and help me develop various skills. I enjoy <strong>drawing, dancing, making arts and crafts, problem solving, playing games, and playing sports</strong>. These activities are not just pastimes for me; they help me develop both my creative and analytical abilities. Drawing and arts allow me to express my creativity and visualize ideas, while problem-solving activities and sports help me build logical thinking, teamwork, and perseverance—all essential qualities for an engineer.</p>
+          </div>
+
+          <div class="about-paragraph fade-in" style="animation-delay: 0.6s;">
+            <h3>Dream Course</h3>
+            <p>My dream course in college is <strong>Bachelor of Science in Civil Engineering</strong>. I am passionate about this field because I want to design structures, create solutions for communities, and contribute to building a safer, stronger environment. I believe that through civil engineering, I can make a meaningful impact on society by creating infrastructure that improves people's lives and supports sustainable development. The combination of my STEM education, problem-solving skills, and creative thinking makes me excited about the possibilities in this field.</p>
+          </div>
+        </div>
+
+        <div class="map-section fade-in" style="animation-delay: 0.7s;">
+          <h3 class="map-title">Location</h3>
+          <div class="map-container">
+            <iframe 
+              src="https://www.google.com/maps?q=San+Jose,+San+Jacinto,+Pangasinan&output=embed" 
+              width="100%" 
+              height="400" 
+              style="border:0; border-radius: var(--radius-md);" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="San Jose, San Jacinto, Pangasinan">
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> MDP Portfolio. Crafted with passion.</p>
+    </footer>
+  </div>
+
+  <script>
+    // Landing page functionality
+    const landingPage = document.getElementById('landing');
+    const mainSite = document.getElementById('mainSite');
+    const enterBtn = document.getElementById('enterBtn');
+
+    enterBtn.addEventListener('click', function() {
+      landingPage.style.opacity = '0';
+      setTimeout(() => {
+        landingPage.style.display = 'none';
+        mainSite.classList.remove('hidden');
+        setTimeout(() => {
+          mainSite.style.opacity = '1';
+          // Show home section by default
+          document.getElementById('home').style.display = 'block';
+          setTimeout(() => {
+            document.getElementById('home').classList.add('active');
+            document.getElementById('home').style.opacity = '1';
+          }, 10);
+        }, 10);
+      }, 500);
+    });
+
+    // Page navigation (no scroll, just show/hide pages)
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+        
+        // Hide all sections
+        document.querySelectorAll('.page-section').forEach(section => {
+          section.classList.remove('active');
+          section.style.opacity = '0';
+          section.style.display = 'none';
+        });
+        
+        // Show target section with fade
+        setTimeout(() => {
+          if (targetSection) {
+            targetSection.style.display = 'block';
+            setTimeout(() => {
+              targetSection.classList.add('active');
+              targetSection.style.opacity = '1';
+            }, 10);
+          }
+        }, 300);
+        
+        // Update active nav link
+        document.querySelectorAll('.nav-link').forEach(a => a.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+
+    // Mobile menu toggle
+    const menuToggle = document.querySelector('[data-toggle]');
+    const siteNav = document.getElementById('siteNav');
+    
+    if (menuToggle) {
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('open');
+        siteNav.classList.toggle('open');
+      });
+    }
+
+    // Set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+
+    // Intersection Observer for fade-in animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+
+    // Theme Toggle Functionality
+    const themeToggle = document.getElementById('themeToggle');
+    const themeIcon = themeToggle.querySelector('.theme-icon');
+    const body = document.body;
+
+    // Check for saved theme preference or default to dark
+    const currentTheme = localStorage.getItem('theme') || 'dark';
+    body.setAttribute('data-theme', currentTheme);
+    updateThemeIcon(currentTheme);
+
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = body.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      
+      body.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      updateThemeIcon(newTheme);
+    });
+
+    function updateThemeIcon(theme) {
+      themeIcon.textContent = theme === 'dark' ? '🌙' : '☀️';
+    }
+  </script>
+</body>
+</html>
